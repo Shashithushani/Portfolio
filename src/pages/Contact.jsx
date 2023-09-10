@@ -8,10 +8,13 @@ function Contact() {
       <h4>Contact</h4>
 
       <div>
-        <Link to="https://www.linkedin.com/in/shashika-samaradeera-221749272/">
+        <Link
+          to="https://www.linkedin.com/in/shashika-samaradeera-221749272/"
+          target="_blank"
+        >
           <img src={linkedin} height={60} width={60} />
         </Link>
-        <Link to="https://github.com/Shashithushani">
+        <Link to="https://github.com/Shashithushani" target="_blank">
           <img src={gitHub} height={70} width={110} />
         </Link>
         <a href="mailto:thushanishashika23@gmail.com">
