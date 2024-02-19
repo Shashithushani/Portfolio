@@ -54,12 +54,14 @@ h2 {
 button {
   border-radius: 8px;
   border: 2px solid;
+  border-color: #5f5135;
   padding: 0.8em 2em;
   font-size: 1em;
+  color: #5f5135;
   font-weight: 500;
   font-family: inherit;
   background-color: #9d8167;
-  cursor: grab;
+  cursor: pointer;
   transition: border-color 0.25s;
 }
 button:hover {
@@ -68,8 +70,10 @@ button:hover {
 }
 button:focus,
 button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  outline: 2px solid rgb(37, 109, 15);
 }
+
+/*  -webkit-focus-ring-color */
 
 @media (prefers-color-scheme: light) {
   :root {
